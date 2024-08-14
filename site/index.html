@@ -1,0 +1,219 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="/TESTEPHP/node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/TESTEPHP/node_modules/bootstrap-icons/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="/TESTEPHP/site/css/style.css">
+
+    <title>Demo</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark border-bottom shadow-sm mb-3">
+        <a class="navbar-brand" href="#">Black Unique</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse">
+          <form class="form-inline my-2 my-lg-40 d-flex justify-content-between w-50 ">
+            <input class="form-control me-2" type="search" placeholder="Digite o que você procura" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Procurar</button>
+          </form>
+          
+          <ul class="navbar-nav flex-grow-1">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Fale Conosco</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Acessar Minha Conta</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <div class="container">
+        <div id="carouselMain" class="carousel slide carousel-dark" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselMain" data-bs-slide-to="0" class="active"></button>
+                <button type="button" data-bs-target="#carouselMain" data-bs-slide-to="1"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="3000">
+                    <img src="/testephp/site/img/imgCa1.jpg" class="d-none d-md-block w-100" alt="">
+                    
+                </div>
+                <div class="carousel-item" data-bs-interval="3000">
+                    <img src="/testephp/site/img/imgCa2.jpg" class="d-none d-md-block w-100" alt="">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselMain" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+                <span class="visually-hidden">Anterior</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselMain" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+                <span class="visually-hidden">Próximo</span>
+            </button>
+        </div>
+        <hr class="mt-3">
+    </div>
+
+    <main class ="flex-fill">
+      <div class="container">
+        <div class="row g-3" >
+          <div>
+            <h1 style="text-align: center;">Lançamentos</h1>
+          </div>
+        
+          <div class="row justify-content-center">
+            <div class="col-5 col-md-2">
+                <div class="card text-center bg-light">
+                    <img src="/testephp/site/img/brincoSiteP1.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Brinco de Argola Tripla Média Essential</h5>
+                        <p class="card-text">R$ 99,90</p>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="col-5 col-md-2">
+                <div class="card text-center bg-light">
+                    <img src="/testephp/site/img/lacImg2.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Brinco Essential Folheado Multi Círculos</h5>
+                        <p class="card-text">R$ 69,00 </p>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="col-5 col-md-2">
+                <div class="card text-center bg-light">
+                    <img src="/testephp/site/img/lacImg3.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Bolsa Joan Beatnik & Sons em Couro Legítimo - Caramelo</h5>
+                        <p class="card-text">R$ 727,00 </p>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="col-5 col-md-2">
+                <div class="card text-center bg-light">
+                    <img src="/testephp/site/img/lacImg4.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Bolsa de Ombro Nylon</h5>
+                        <p class="card-text">R$ 179,90 </p>
+                    </div>
+                </div>
+            </div>
+          </div>
+
+          <div>
+            <h1 style="text-align: center;">Destaques</h1>
+          </div>
+        
+          <div class="row justify-content-center">
+            <div class="col-5 col-md-2">
+                <div class="card text-center bg-light">
+                    <img src="/testephp/site/img/desImg1.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Vestido Midi Ilítia Muna - Verde Água Muna</h5>
+                        <p class="card-text">R$ 228,00</p>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="col-5 col-md-2">
+                <div class="card text-center bg-light">
+                    <img src="/testephp/site/img/desImg2.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Regata de Alça Fina com Amarração nas Costas</h5>
+                        <p class="card-text">R$ 159,90</p>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="col-5 col-md-2">
+                <div class="card text-center bg-light">
+                    <img src="/testephp/site/img/desImg3.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Blazer Alongado Acinturado Bolsos</h5>
+                        <p class="card-text">R$ 399,90 </p>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="col-5 col-md-2">
+                <div class="card text-center bg-light">
+                    <img src="/testephp/site/img/desImg4.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Camiseta Decote Redondo Canelada</h5>
+                        <p class="card-text">R$ 79,90 </p>
+                    </div>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </main>
+
+    <footer class="border-top text-align bg-dark">
+      <div class="container">
+          <div class="row py-3">
+              <div class="col-12 col-md-4 text-center text-white"> <h4>Categorias</h4>
+                  <a href="/novidades.html" class="text-decoration-none text-white">
+                      Novidades
+                  </a><br>
+                  <a href="/maisVendidos.html" class="text-decoration-none text-white">
+                      Mais Vendidos
+                  </a><br>
+                  <a href="/roupas.html" class="text-decoration-none text-white">
+                      Roupas
+                  </a><br>
+                  <a href="/primavera.html" class="text-decoration-none text-white">
+                      Primavera
+                  </a>
+              </div>
+              <div class="col-12 col-md-4 text-center text-white"> <h4>Conteudo</h4>
+                  <a href="/FaleConosco.html" class="text-decoration-none text-white">
+                    Fale Conosco
+                  </a><br>
+                  <a href="/Quemsomos.html" class="text-decoration-none text-white">
+                    Quem somos
+                  </a><br>
+                  <a href="/Meiospgfrete.html" class="text-decoration-none text-white">
+                    Meios de pagamento e de frete
+                  </a><br>
+                  <a href="/polprivacidade.html" class="text-decoration-none text-white">
+                    Política de privacidade
+                  </a>
+              </div>
+              <div class="col-12 col-md-4 text-center text-white"> <h4>Sobre a loja</h4>
+                <a>
+                  Seja bem-vindo à nossa loja! 💙 Tenha certeza de que aqui você terá uma excelente experiência de compra. Nossos produtos são selecionados entre os melhores fornecedores do mercado e nosso preço ahhhhh super competitivo. Dica: Nós enviamos descontos para quem se cadastra em nossa newsletter. Nosso foco é que seu pedido chegue em perfeito estado até sua casa, nossa atenção e cuidado com cada etapa é nossa garantia de qualidade. 
+                </a><br>
+            </div>
+          </div>
+      </div>
+    </footer>
+
+    <footer class="border-top text-muted bg-light">
+      <div class="container">
+          <div class="row py-3 justify-content-center">
+              <div class="col-12 col-md-6 text-center">
+                  &copy; Loja Demonstrativa (Fictícia) - CNPJ: 01.739.736/0001-49 © Todos os direitos reservados. <br>
+              </div>
+          </div>
+      </div>
+  </footer>
+
+    <!-- Optional JavaScript -->
+    <!-- Popper.js first, then Bootstrap JS -->
+    <script src="/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
