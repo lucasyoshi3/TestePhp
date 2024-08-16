@@ -1,3 +1,5 @@
+CREATE DATABASE usuario;
+
 CREATE TABLE usuario (
     id INT AUTO_INCREMENT PRIMARY KEY,
     usuario VARCHAR(50) NOT NULL,
